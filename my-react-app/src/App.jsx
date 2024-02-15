@@ -9,12 +9,18 @@
 // import Fruit from "./Fruits"
 import { MyComponents } from "./MyComponents"
 import { SM } from "./SM"
+import { ColorPicker } from "./ColorPicker"
+import { CounterUpdater } from "./CounterUpdater"
+import { MyCarComponents } from "./MyCarComponents"
 function App() {
 
   return (
     <>
   <SM/>
     <MyComponents></MyComponents>
+    <ColorPicker></ColorPicker>
+    <CounterUpdater></CounterUpdater>
+    <MyCarComponents></MyCarComponents>
     </>
   )
 }
